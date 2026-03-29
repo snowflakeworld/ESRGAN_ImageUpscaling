@@ -6,6 +6,8 @@ from losses import ESRGANLoss
 from utils import create_dataset, save_image
 import time
 
+from tensorflow import keras
+
 
 class ESRGANTrainer:
     def __init__(self, config):

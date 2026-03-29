@@ -23,8 +23,8 @@ class Config:
     lambda_pixel = 1e-3
 
     # Checkpoints
-    checkpoint_dir = "checkpoints"
-    sample_dir = "samples"
+    checkpoint_dir = "data/checkpoints"
+    sample_dir = "data/samples"
 
     # Hardware
     gpu_memory_fraction = 0.9

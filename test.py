@@ -55,4 +55,4 @@ if __name__ == "__main__":
     # tester.test_single_image('test_input.png', 'test_output.png')
 
     # Test directory
-    tester.test_directory(config.test_dir, "test_results")
+    tester.test_directory(config.test_dir, "data/test_results")
